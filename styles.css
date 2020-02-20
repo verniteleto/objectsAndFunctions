@@ -1,0 +1,50 @@
+/* Стили для основной страницы шаблона */
+body {
+    font-size: 16px;
+    font-family: 'Century Gothic', sans-serif;
+}
+header {
+    background-color: #f1a156;
+    width: 70%;
+    margin: auto;
+    color: #163069;
+    text-align: center;
+    padding: 10px 20px;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+nav {
+    width: 35%;
+    margin-left: 20%;
+}
+
+li{
+    list-style: none;
+}
+
+a {
+    display: block;
+    text-decoration: none;
+    background-color: #D4EAC8;
+    color: #56A3A6;
+    border-top: 3px dashed #CAD49D;
+    height: 35px;
+    line-height: 35px;
+    padding-left: 30px;
+}
+
+a:hover{
+    background-color: #C4E0B5;
+}
+
+footer{
+    color: lightgray;
+    background-color: darkslategray;
+    padding: 10px;
+    width: 40%;
+    margin-left: 25%;
+}
